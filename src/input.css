@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#toggle:checked ~ label div.toggle-btn {
+  @apply translate-x-[21px];
+}
